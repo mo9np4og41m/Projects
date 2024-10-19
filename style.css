@@ -14,20 +14,22 @@ body{
 }
 
 .button{
-    color: #FFC501;
-    background-color: #FF3150;
-    border: none;
+    color: black;
+    background-color: skyblue;
+    border: 1px solid black;
     padding: 13px 40px;
     border-radius: 15px;
-    outline: none;
-}
+    outline: black;
+    box-shadow: 4px 4px 4px 0px rgba(227,132,227,1);}
 
 .button:hover{
     color: #19283f;
     background-color: whitesmoke; 
+    cursor: pointer;
 }
 
 .header-section{
+    background-image: url(back4.jpg);
     background-color: #19283f;
     color: #A8B9C0;
     padding-top: 15px;
@@ -90,7 +92,7 @@ body{
 
 .search-button{
     background-color: transparent;
-    border: none;
+    border: 1px solid black;
     outline: black;
     margin: 0 30px;
 }
@@ -99,6 +101,48 @@ body{
     display: block;
     width: 30px;
     height: 30px;
-    background: url(icons/search-icon-removebg-preview.png) no-repeat;
+    background: url(search-icon-removebg-preview.png) no-repeat;
+    background-size: contain;
 }
 
+.button2{
+    background-color: black;
+}
+
+
+@media (max-width: 800px){
+
+    .container{
+        width: 100vw;
+    }
+
+    .header-section .menu{
+        display: none;
+    }
+
+    .search-icon{
+        position: relative;
+        z-index: 2;
+    }
+
+    .menu.active{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        padding-left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background: purple;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-item{
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
