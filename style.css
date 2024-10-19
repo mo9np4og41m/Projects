@@ -14,26 +14,29 @@ body{
 }
 
 .button{
-    color: black;
-    background-color: skyblue;
+    color: white;
+    background-color: black;
     border: 1px solid black;
     padding: 13px 40px;
     border-radius: 15px;
     outline: black;
-    box-shadow: 4px 4px 4px 0px rgba(227,132,227,1);}
+    box-shadow: 1px 2px 50px 10px rgb(255, 253, 255);
+}
 
 .button:hover{
     color: #19283f;
     background-color: whitesmoke; 
     cursor: pointer;
+   
 }
 
 .header-section{
-    background-image: url(back4.jpg);
+    background-image: url(pictures/logo-photo.jpg);
+    background-position: center;
     background-color: #19283f;
     color: #A8B9C0;
     padding-top: 15px;
-    padding-bottom: 150px;
+    padding-bottom: 500px;
 }
 
 .header-section nav{
@@ -50,6 +53,7 @@ body{
 .header-section main{
     text-align: center;
     color: #F0F8FB;
+    /*text-shadow: 1px 1px 0px rgba(255,255,255,1);*/
 }
 
 .header-section h1{
@@ -77,7 +81,7 @@ body{
 }
 
 .menu-item:last-of-type{
-    border-right: 1px solid #00c7c0;
+    border-right: 1px solid #ffffff;
 }
 
 .menu-item a{
@@ -86,8 +90,10 @@ body{
 }
 
 .menu-item a:hover{
-    color:#00c7c0;
+    box-shadow: 1px 2px 50px 10px rgb(255, 253, 255);
+    color:#ffffff;
     text-decoration: underline;
+  
 }
 
 .search-button{
@@ -101,7 +107,7 @@ body{
     display: block;
     width: 30px;
     height: 30px;
-    background: url(search-icon-removebg-preview.png) no-repeat;
+    background: url(Icons/search-icon-removebg-preview.png) no-repeat;
     background-size: contain;
 }
 
