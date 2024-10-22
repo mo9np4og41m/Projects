@@ -9,6 +9,30 @@ body{
     margin: auto;
 }
 
+.container2{
+    display: flex;
+    justify-content: left;
+}
+
+.sapce{
+    width: auto;
+    height: 100px;
+    background-color: rgb(253, 0, 0);
+    color: red;
+}
+
+.lefttext{
+    padding-left: 100px;
+}
+
+.header-section .container2{
+    align-items: right;
+}
+
+#mainText{
+    color: white;
+    font-size: 30px;
+}
 .button{
     font-weight: bold;
 }
@@ -36,7 +60,7 @@ body{
     background-color: #19283f;
     color: #A8B9C0;
     padding-top: 15px;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
 }
 
 .header-section nav{
@@ -60,6 +84,7 @@ body{
     font-size: 51px;
     font-weight: 300;
     margin: 0;
+    
 }
 
 .header-section h3{
@@ -98,16 +123,20 @@ body{
 
 .search-button{
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid transparent;
     outline: black;
     margin: 0 30px;
+}
+
+.search-button:hover{
+    box-shadow: 1px 2px 50px 10px rgb(255, 253, 255);
 }
 
 .search-icon{
     display: block;
     width: 30px;
     height: 30px;
-    background: url(Icons/search-icon-removebg-preview.png) no-repeat;
+    background: url(Icons/navigator2.png) no-repeat;  
     background-size: contain;
 }
 
