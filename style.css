@@ -13,7 +13,7 @@ body{
     padding-left: 100px;
 }
 
-.header-section .container2{
+.home-banner .container2{
     align-items: right;
 }
 
@@ -35,8 +35,14 @@ body{
     box-shadow: 1px 2px 50px 10px rgb(255, 253, 255);
 }
 
-.page2{
+#section1{
+    background:gray;
+    height: 200px;
+}
+
+#section2{
     background-image: url(pictures/test.png);
+    background-size: 100% 100%;
 }
 
 .main-text{
@@ -54,7 +60,28 @@ body{
    
 }
 
+
+
 .header-section{
+    background-color: #000;
+    padding-bottom: 15px;
+}
+
+.header-section nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-section nav{
+    padding-top: 15px;
+    align-items: center;
+}
+
+
+
+
+
+#banner-section{
     background-image: url(pictures/logo-photo.jpg);
     background-position: center;
     background-color: #19283f;
@@ -63,37 +90,29 @@ body{
     padding-bottom: 400px;
 }
 
-.header-section nav{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 150px;
-}
-
-.header-section nav{
-    padding-top: 15px;
-    align-items: center;
-}
-
-.header-section main{
+#banner-text{
+    padding-top: 200px;
     text-align: center;
     color: #F0F8FB;
     /*text-shadow: 1px 1px 0px rgba(255,255,255,1);*/
 }
 
-.header-section h1{
+#banner-text h1{
     font-size: 51px;
     font-weight: 300;
     margin: 0;
     
 }
 
-.header-section h3{
+#banner-text h3{
     font-weight: 300;
     font-size: 15px;
     font-size: inherit;
     margin: 0;
     margin-bottom: 30px;
 }
+
+
 .menu{
     list-style: none;
     margin: 0;
@@ -112,33 +131,32 @@ body{
 .menu-item a{
     color: inherit;
     text-decoration: none;
+    color: #fff;
 }
 
 .menu-item a:hover{
-    box-shadow: 1px 2px 50px 10px rgb(255, 253, 255);
+    text-shadow: 3px 24px 19px rgba(255,255,255,0.6);
     color:#ffffff;
     text-decoration: underline;
   
 }
 
-.search-button{
-    background-color: transparent;
-    border: 1px solid transparent;
-    outline: black;
-    margin: 0 30px;
-}
-
-.search-button:hover{
-    box-shadow: 1px 2px 50px 10px rgb(255, 253, 255);
-}
 
 .search-icon{
+    cursor: pointer;
     display: block;
     width: 30px;
     height: 30px;
+    margin: 0px 30px;
     background: url(Icons/navigator2.png) no-repeat;  
     background-size: contain;
+    border-radius: 50%;
 }
+
+.search-icon:hover{
+    box-shadow: 1px 2px 10px 10px rgb(255, 253, 255);
+}
+
 
 .button2{
     background-color: black;
