@@ -2,6 +2,7 @@ body{
     font-family: Roboto, sans-serif;
     font-size: 15px;
     margin: 0;
+    background-color: #000;
 }
 
 .container{
@@ -162,31 +163,38 @@ body{
     background-color: black;
 }
 
+
 /* Services page-start */
 
 #services-page{
-    display: flex;
-    border: 10px black solid;
-    /*border-radius: 100px; */
-    background-image: url(pictures/logo2.jpg);
-    background-position: center; 
-    background-size: cover;
-    
-    height: 600px;
-    width: auto;
-    margin-top: 1px;
-    justify-content: left;
-
+    background-color: #000;
 }
 
-.text-services-page{
-    flex-direction: column;
-    margin-left: 100px;
-    margin-top: 100px;
+.service{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px 0px;
+}
+
+.service-text{
+    width: 600px;
     color: white;
-    margin-bottom: 0;
-   
-   
+    text-align: center;
+}
+
+.service-text p{
+    font-size: 18px;
+}
+
+
+.service-image{
+    width: 600px;
+}
+.service-image img{
+    width: 100%;
 }
 
 /* Services page-end */
