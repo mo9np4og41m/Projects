@@ -9,18 +9,6 @@ body{
     margin: auto;
 }
 
-.container2{
-    display: flex;
-    justify-content: left;
-}
-
-.sapce{
-    width: auto;
-    height: 100px;
-    background-color: rgb(253, 0, 0);
-    color: red;
-}
-
 .lefttext{
     padding-left: 100px;
 }
@@ -45,6 +33,18 @@ body{
     border-radius: 15px;
     outline: black;
     box-shadow: 1px 2px 50px 10px rgb(255, 253, 255);
+}
+
+.page2{
+    background-image: url(pictures/test.png);
+}
+
+.main-text{
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+
+
 }
 
 .button:hover{
