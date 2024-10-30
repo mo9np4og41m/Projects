@@ -39,20 +39,14 @@ body{
 /* SECTION 1 - START */
 
 .section1{
-    display: flex;
     background: black;
-    height: 600px;
-    text-align: center;
+    margin-top: 50px;
 }
 
 #tx-t{
-    display: flex;
-    height: 50px;
-    color: white;
     text-align: center;
+    color: white;
 }
-
-
 
 /* SECTION 1- END */
 
