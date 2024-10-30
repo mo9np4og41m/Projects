@@ -36,10 +36,25 @@ body{
     box-shadow: 1px 2px 50px 10px rgb(255, 253, 255);
 }
 
-#section1{
-    background:gray;
-    height: 200px;
+/* SECTION 1 - START */
+
+.section1{
+    display: flex;
+    background: black;
+    height: 600px;
+    text-align: center;
 }
+
+#tx-t{
+    display: flex;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* SECTION 1- END */
 
 #section2{
     background-image: url(pictures/test.png);
@@ -83,16 +98,20 @@ body{
 
 
 #banner-section{
+
     background-image: url(pictures/logo-photo.jpg);
     background-position: center;
     background-color: #19283f;
     color: #A8B9C0;
-    padding-top: 15px;
-    padding-bottom: 400px;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    border-radius: 1px solid white;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 
 #banner-text{
-    padding-top: 200px;
+    padding-top: 100px;
     text-align: center;
     color: #F0F8FB;
     /*text-shadow: 1px 1px 0px rgba(255,255,255,1);*/
@@ -197,6 +216,15 @@ body{
     width: 100%;
 }
 
+#service-1{
+    border-bottom: 3px solid white;
+    border-bottom-right-radius: 100px;
+}
+
+#service-2{
+
+    border-top-left-radius: 100px;
+}
 /* Services page-end */
 
 
@@ -208,6 +236,8 @@ body{
 
     .header-section .menu{
         display: none;
+        
+
     }
 
     .search-icon{
