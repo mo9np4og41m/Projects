@@ -94,5 +94,10 @@
 @media (max-width: 640px){
     .form-row{
         flex-direction: column;
+        gap: 0px;
+    }
+
+    .form-group{
+        width: 100%;
     }
 }
