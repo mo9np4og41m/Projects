@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Site</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <header class="header-section">
@@ -32,61 +32,58 @@
         </div>
     </header>
 
-    <main class="mainnn">
+    <main class="main">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2364.577502129021!2d23.36724421228886!3d42.6665067019248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85d5e7df756f%3A0xaf3c90ebf95c72c8!2sEvropark!5e1!3m2!1sen!2sbg!4v1729774722214!5m2!1sen!2sbg" 
         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <div id="main-form" style="background-color: white;">
+
+          <h1>CONTACT US</h1>
+
+          <form  action="https://dev.childish.eu/api/send-email.php">
+          
+              <div class="form-row">
+                <div class="form-group">
+                  <div class="form-label">FULL NAME *</div>
+                  <div class="form-field"><input placeholder="Enter Your Name" type="text" name="full_name" required></div>
+                </div>
+    
+                <div class="form-group">
+                  <div class="form-label">EMAIL *</div>
+                  <div class="form-field"><input placeholder="Enter Your Email" type="email" name="email" required></div>
+                </div>
+              </div>
+    
+              <div class="form-group">
+                <div class="form-label">PHONE *</div>
+                <div class="form-field"><input placeholder="Enter Your Phone" type="text" name="phone" required></div>
+              </div>
+    
+              <div class="form-group">
+                <div class="form-label">NEEDED SERVICES *</div>
+                <div class="form-field">
+                  <select name="services" required>
+                    <option value="">Please choose...</option>
+                    <option value="Website Development">Website Development</option>
+                    <option value="Mobile Applications">Mobile Applications</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option> 
+                  </select>
+                </div>
+              </div>
+    
+              <div class="form-group">
+                <div class="form-label">NEEDED SERVICES</div>
+                <div class="form-field"><textarea name="message" placeholder="Write your message..."></textarea></div>
+              </div>
+    
+              <input type="submit" class="form-submit" value="Submit  →">
+    
+          </form>
+        </div>
     </main>
 
   
-    <div class="Form-Main" style="background-color: white;">
-    <form  action="https://dev.childish.eu/api/send-email.php">
-    
-        
-          <div class="f-test">
-            <div style="margin-top: 10px;" class="form-field" id="nameField_F">
-                <div><b></b></div>
-                <div> <input placeholder="Enter Your Name" type="text" name="first_name" required></div>
-                <label for="fullName">FULL NAME*</label>
-              </div>
-            
-              <div id="nameField_L"   class="form-field">
-                <div><b>*</b></div>
-                <div><input placeholder="Last Name" type="text" name="last_name" required ></div>
-              </div>
-        
-          </div>
-      
-      <div class="form-field">
-        <div><b>*</b></div>
-        <div><input placeholder="Email" type="text" name="email" required></div>
-      </div>
-
-      <div class="form-field ">
-        <select id="servicess" name="servicess" required>
-          <option value="">Please choose...</option>
-          <option value="Website Development">Website Development</option>
-          <option value="Mobile Applications">Mobile Applications</option>
-          <option value="Artificial Intelligence">Artificial Intelligence</option> 
-          </select>
-      </div>
-
-      <div class="form-field">
-        <div><label>Message:</label></div>
-        <div><textarea placeholder="Write your message..."></textarea></div>
-      </div>
-    
-      <div class="form-field">
-        <div><label></label></div>
-        <div><input type="submit" value="Send"></div>
-      </div>
-      
-     
-        
-
-    </form>
-
-</div>
-    
     
     
 

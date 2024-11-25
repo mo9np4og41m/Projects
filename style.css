@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: Roboto, sans-serif;
     font-size: 15px;
@@ -212,69 +216,15 @@ body{
 }
 /* Services page-end */
 
-/* Contact Forum */ 
 
-.formBody{
-    display: flex;
-    height: 500px;
-}
-
-
-.mainnn{
+.main{
     margin-bottom: 20px;
-}
-
-.form-field{
-    padding: 10px;
-    display: flex;
-    margin-top: 10px;
-    border-radius: 88px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 10px;
-    color: white;
-}
-
-.form-field label{
-    display: inline-block;
-    width: 90px;
-    margin-right: 10px;
-}
-
-textarea{
-    width: 400px;
-    height: 100px;
 }
 
 b{
     color: red;
 }
-.form-field input{
-    height: 50px;
-    width: 500px;
-    border: 1px solid gray;
-    background-color: rgba(255, 255, 255, 0.822);
-    border-radius: 12px;
-    padding: 10px 20px;
-}
 
-.f-test{
-    position: relative;
-}
-  
-
-.f-test label {
-    position: absolute;
-    top: 10px;
-    left: 700px; 
-    color: #999; 
-    font-size: 10px; 
-    pointer-events: none; 
-  }
-
-/* Contact Forum     */ 
 
 @media (max-width: 800px){
 
